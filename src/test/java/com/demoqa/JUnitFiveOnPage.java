@@ -14,6 +14,7 @@ public class JUnitFiveOnPage {
     static void setUp () {
         //Configuration.holdBrowserOpen = true;
         Configuration.browserSize = "1920x1080";
+        Configuration.pageLoadStrategy = "eager";
     }
 
     @Test
